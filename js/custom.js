@@ -367,6 +367,15 @@ $(function () {
 	$('#blogCarousel').carousel({
 		interval: 5000
 	});
+       
 
+	/* ..............................................
+    TimeLine
+    ................................................. */
+	$('.timeLine').timeLine({
+        mainColor: '#890025',
+        opacity: '0.85',
+        lineColor: '#890025'
+    });
 
 });
